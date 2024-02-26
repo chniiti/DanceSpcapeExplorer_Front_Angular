@@ -14,6 +14,7 @@ import { ShortCodeComponent } from './components/short-code/short-code.component
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CopyRightComponent } from './components/copy-right/copy-right.component';
+import { CompetitionComponent } from './components/competition/competition.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CopyRightComponent } from './components/copy-right/copy-right.component
     ShortCodeComponent,
     TestimonialComponent,
     ContactComponent,
-    CopyRightComponent
+    CopyRightComponent,
+    CompetitionComponent
   ],
   imports: [
     BrowserModule,

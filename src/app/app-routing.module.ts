@@ -6,6 +6,7 @@ import { ShortCodeComponent } from './components/short-code/short-code.component
 import { HourComponent } from './components/hour/hour.component';
 import { DancerComponent } from './components/dancer/dancer.component';
 import { StudentComponent } from './components/student/student.component';
+import { CompetitionComponent } from './components/competition/competition.component';
 
 const routes: Routes = [
   { path: 'banner', component: BannerComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'short-code', component: ShortCodeComponent},
   { path: 'hour', component: HourComponent},
   { path: 'dancer', component: DancerComponent},
-  { path: 'student', component: StudentComponent}
+  { path: 'student', component: StudentComponent},
+  { path: 'competition', component: CompetitionComponent}
 ];
 
 @NgModule({
